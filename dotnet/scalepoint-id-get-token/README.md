@@ -1,6 +1,6 @@
 # Scalepoint Id Get Token
 
-This sample shows the principles behind [Scalepoint Authentication](https://dev.scalepoint.com/authentication)
+This example shows the principles behind [Scalepoint Authentication](https://dev.scalepoint.com/authentication)
 
 ## Prerequisites
 
@@ -10,7 +10,7 @@ This sample shows the principles behind [Scalepoint Authentication](https://dev.
 
 ## Getting started
 
-* To build and run this sample execute comand `dotnet run --framework ?` with 4 parameters:
+* To build and run this example execute comand `dotnet run --framework ?` with 4 parameters:
   * "client identifier" - string
     * provided by Scalepoint
   * "certificateFile" - string
