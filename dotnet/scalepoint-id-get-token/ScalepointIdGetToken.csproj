@@ -1,34 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFrameworks>net47;netcoreapp2.1</TargetFrameworks>
-    <RootNamespace>ScalepointIdGetToken</RootNamespace>
-    <ApplicationIcon />
-    <StartupObject />
-    <Company>Scalepoint</Company>
-    <Authors>Scalepoint</Authors>
-    <Product>ScalepointId</Product>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <LangVersion>7.1</LangVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <WarningsAsErrors />
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Scalepoint.OAuth.TokenClient" Version="0.8.0" />
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.1">
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="SonarAnalyzer.CSharp" Version="7.3.0.5690">
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>    
-  </ItemGroup>
-
-  <ItemGroup>
-    
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.1" PrivateAssets="All" />
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="7.3.0.5690" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>

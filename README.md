@@ -2,7 +2,7 @@
 
 This repository contains a variety of samples illustrating how to use the Scalepoint API's:
 
-* Scalepoint ID Get Token - shows the principles behind [Scalepoint Authentification](https://dev.scalepoint.com/authentication)
+* Scalepoint ID Get Token - shows the principles behind [Scalepoint Authentication](https://dev.scalepoint.com/authentication)
   * [.NET, C#](dotnet/scalepoint-id-get-token)
 
 ## Branches

@@ -1,18 +1,18 @@
 # Scalepoint Id Get Token
 
-This sample shows the principles behind [Scalepoint Authentification](https://dev.scalepoint.com/authentication)
+This sample shows the principles behind [Scalepoint Authentication](https://dev.scalepoint.com/authentication)
 
 ## Prerequisites
 
 * [.NET](https://www.microsoft.com/net/download)
+  > This example uses modern .NET tooling, also known as `.NET Core SDK`. You can still target classic Windows-only `.NET Framework` with this SDK and this example targets both `.NET Framework 4.7` and `.NET Core 2.1`.
 * Self signed X.509 certificate. [Here it is documentation](https://dev.scalepoint.com/authentication/#self-signed-certificate-generation) how you could generate your own.
 
 ## Getting started
 
-* To build this project run `dotnet build` command
-* To run this sample execute comand `dotnet run` with 4 parameters:
+* To build and run this sample execute comand `dotnet run --framework ?` with 4 parameters:
   * "client identifier" - string
-    * Will be provided by Scalepoint
+    * provided by Scalepoint
   * "certificateFile" - string
     * path to file with self-signed certificate
   * "certificatePassword" - string
@@ -23,5 +23,5 @@ This sample shows the principles behind [Scalepoint Authentification](https://de
 For example:
 
 ```cmd
-dotnet run "future_insurance" "ClientCertificate.pfx" "password" "case_integration"
+dotnet run --framework net47 "future_insurance" "ClientCertificate.pfx" "password" "case_integration"
 ```
