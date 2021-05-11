@@ -4,6 +4,7 @@ This repository contains a variety of examples illustrating how to use the Scale
 
 * Scalepoint ID Get Token - shows the principles behind [Scalepoint Authentication](https://dev.scalepoint.com/authentication)
   * [.NET, C#](dotnet/scalepoint-id-get-token)
+  * [Java](java/scalepoint-id-get-token)
 
 ## Branches
 
