@@ -5,7 +5,7 @@ This example shows the principles behind [Scalepoint Authentication](https://dev
 ## Prerequisites
 
 * [.NET](https://www.microsoft.com/net/download)
-  > This example uses modern .NET tooling, also known as `.NET Core SDK`. You can still target classic Windows-only `.NET Framework` with this SDK and this example targets both `.NET Framework 4.8` and `.NET Standard 2.0`.
+  > This example uses modern .NET tooling, also known as `.NET Core SDK`. You can still target classic Windows-only `.NET Framework` with this SDK and this example targets both `.NET Framework 4.5` and `.NET Standard 2.0`.
 * Self signed X.509 certificate. [Here it is documentation](https://dev.scalepoint.com/authentication/#self-signed-certificate-generation) how you could generate your own.
 
 ## Getting started
@@ -23,5 +23,5 @@ This example shows the principles behind [Scalepoint Authentication](https://dev
 For example:
 
 ```cmd
-dotnet run --framework net48 "future_insurance" "ClientCertificate.pfx" "password" "case_integration"
+dotnet run --framework net45 "future_insurance" "ClientCertificate.pfx" "password" "case_integration"
 ```
