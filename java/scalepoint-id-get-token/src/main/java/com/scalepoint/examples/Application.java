@@ -44,9 +44,9 @@ public class Application {
         String[] scopes = { scopeName };
 
         // The endpoint hardcoded below is for test environment. More info: https://dev.scalepoint.com/authentication#endpoints
-        String scalepointTokenUrl = "https://test-accounts.scalepoint.com/connect/token";
+        String scalepointTokenUrl = "https://sandbox-accounts.scalepoint.com/connect/token";
         // If you are going to use a your own proxy please specify it here, otherwise it is the same as tokenUrl
-        String companyProxyTokenUrl = "https://test-accounts.scalepoint.com/connect/token";
+        String companyProxyTokenUrl = "https://sandbox-accounts.scalepoint.com/connect/token";
 
         // This example uses Scalepoint OAuth2 client helper library: https://github.com/Scalepoint/oauth-token-java-client
         // Reuse the instance throughout the application lifecycle
