@@ -44,7 +44,7 @@ namespace ScalepointIdGetToken
             var scopes = new[] { scopeName };
 
             // The endpoint hardcoded below is for test environment. More info: https://dev.scalepoint.com/authentication#endpoints
-            var environment = "https://test-accounts.scalepoint.com/connect/token";
+            var environment = "https://sandbox-accounts.scalepoint.com/connect/token";
             var authenticationEndpointForTests = new Uri(environment);
 
             // This example uses Scalepoint OAuth2 client helper library: https://github.com/Scalepoint/oauth-token-net-client
